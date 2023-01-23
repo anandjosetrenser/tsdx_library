@@ -16,3 +16,5 @@ export const Thing: FC<Props> = ({ children }) => {
 
 export * from './components/floatingInput/FloatingInput';
 export * from './components/datePicker/DatePicker';
+export * from './components/kebakMenu/KebabMenu';
+export * from './components/Pagination/PaginationWithItemCount';
