@@ -16,3 +16,12 @@ export const Tooltip = styled.div`
   text-align: left;
   word-break: break-all;
 `;
+
+export const IconContainer = styled.div<{ isActive?: boolean }>`
+  color: ${props =>
+    props.isActive !== undefined && props.isActive
+      ? color.icon.active
+      : color.icon.disable};
+  cursor: pointer;
+  display: flex;
+`

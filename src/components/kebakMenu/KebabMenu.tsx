@@ -9,7 +9,7 @@ import UserActionWrap, {
 } from "./style";
 import { FaArrowIosRight, FaMoreVertical } from "../../assets/icons/svgComponents";
 import { Tooltip } from "../../common/style";
-import Popover from "../Popover/Popover";
+import {Popover} from "../Popover/Popover";
 import color from "../../theme/colors";
 import dimensions from "../../theme/dimensions";
 import React from "react";

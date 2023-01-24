@@ -6,7 +6,7 @@ import PopoverInterface from "./interface";
 import { PopoverContent, PopoverWrapper } from "./style";
 import React from "react";
 
-export default function Popover(props: PopoverInterface) {
+function Popover(props: PopoverInterface) {
   const {
     children,
     icon,
@@ -100,3 +100,5 @@ export default function Popover(props: PopoverInterface) {
     </PopoverWrapper>
   );
 }
+
+export {Popover}

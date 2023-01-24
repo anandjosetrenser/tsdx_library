@@ -18,3 +18,6 @@ export * from './components/floatingInput/FloatingInput';
 export * from './components/datePicker/DatePicker';
 export * from './components/kebakMenu/KebabMenu';
 export * from './components/Pagination/PaginationWithItemCount';
+export * from './components/Popover/Popover';
+export * from './components/selectDropDown/SelectDropDown';
+export * from './components/table/Table';
