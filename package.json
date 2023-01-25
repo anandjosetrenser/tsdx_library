@@ -21,12 +21,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@anandjosetrenser"
-  },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/anandjosetrenser/tsdx_library"
+    "url": "git://github.com/anandjosetrenser/tsdx_library.git"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -42,7 +38,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "tsdx_library",
+  "name": "@anandjosetrenser/tsdx_library",
   "author": "Anand Jose",
   "module": "dist/tsdx_library.esm.js",
   "devDependencies": {
