@@ -40,7 +40,7 @@
   },
   "name": "tsdx_library",
   "author": "Anand Jose",
-  "module": "dist/tsdx-1.esm.js",
+  "module": "dist/tsdx_library.esm.js",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@size-limit/preset-small-lib": "^8.1.1",
