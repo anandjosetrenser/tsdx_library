@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -21,6 +21,9 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@anandjosetrenser"
+  },
   "peerDependencies": {
     "react": ">=16"
   },
@@ -35,19 +38,9 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "tsdx-1",
+  "name": "tsdx_library",
   "author": "Anand Jose",
   "module": "dist/tsdx-1.esm.js",
-  "size-limit": [
-    {
-      "path": "dist/tsdx-1.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/tsdx-1.esm.js",
-      "limit": "10 KB"
-    }
-  ],
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@size-limit/preset-small-lib": "^8.1.1",
